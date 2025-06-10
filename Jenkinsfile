@@ -4,7 +4,7 @@ pipeline {
     environment {
         EC2_USER = 'ec2-user'
         EC2_HOST = '13.60.196.114'
-        PRIVATE_KEY_PATH = 'C:\Users\user\Downloads\jenkins_aws.pem'
+        PRIVATE_KEY_PATH = 'C:/Users/user/Downloads/jenkins_aws.pem'
         IMAGE_NAME = 'newelectriccajenkins'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
         GIT_REPO = 'https://github.com/LA-WEST98/Jekins_project.git'
